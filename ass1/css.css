@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+.outer-box{
+ width: 100%;   
+ height: 100vh;
+ background: linear-gradient(to right, rgb(38, 73, 133) 50%,rgb(205, 206, 213) 50%);
+}
+
+.content-box{
+    position: relative;
+    margin: 0 auto;
+    top: 10%;
+    width: 60%;
+    height: 80vh;
+    background: linear-gradient(to right, rgb(174, 195, 192) 50%,white 50%);
+    border-radius: 20px;
+    display: flex;
+    flex: 50%;
+}
+
+.form{
+    position: relative;
+    background: rgb(174, 195, 192);
+    padding: 12px;
+    margin: auto;
+    border-radius: 20px;
+    width: 80%;
+    height: 70vh;
+    top: 5%;
+    line-height: 13px;
+}
+.free{
+    text-align: center;
+}
+input[type=text],input[type=email],input[type=password]{
+    width: 200px;
+    border: none;
+}
+input[type=button]{
+    background: rgb(38, 73, 133);
+    color: #fff;
+    padding: 3px;
+    margin-left: 30%;
+    width: 100px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form legend{
+    font-size: 9px;
+    text-align: center;
+}
+.icons{
+    text-align: center;
+}
+.fa{
+    padding-left: 20px;
+}
+
+
+.box-1,.box-2{
+    width: 100%;
+}
+.bottom{
+    margin: 15%;
+}
+.logo{
+    margin: 10px;
+}
+.content{
+    
+    width: 90%;
+    height: 40vh;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex: 50%;
+    margin-top: 10%;
+}
+
+/* Circle */
+
+.one{
+    width: 100%;
+}
+.box-1{
+background: radial-gradient(rgb(38, 73, 133) 45%, transparent 30%);   
+}
+.outer_circle {
+            position: relative;
+            margin: 40px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: #ff6060;
+        }
+        .outer_circle strong{
+            position: absolute;
+            top: 40%;
+            left: 30%;
+            font-size: x-large;
+        }
+          
+.inner_circle {
+            background: linear-gradient(to bottom, rgb(9, 112, 26) 0%,rgb(21, 255, 0) 100%);
+            content: '';
+            position: absolute;
+            top: -20px;
+            bottom: -20px;
+            right: -20px;
+            left: -20px;
+            z-index: -1;
+            border-radius: inherit;
+        }
+        .two{
+            width: 100%;
+        }
+        .two-1,.two-2{
+            background: rgb(255, 255, 255);
+            border-width: 1px;
+            border-color: black;
+            border-radius: 10px;
+            border-style: solid;
+            padding: 3px;
+        }
+        .two-2{
+            margin-top: 10px;
+        }
